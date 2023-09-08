@@ -41,6 +41,22 @@ h2 {
     letter-spacing: 0.02em;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+}
 
 
 .container {
@@ -203,10 +219,43 @@ h2 {
 
 .team-title{
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
-.team-list{
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-images{
     background-color: #fff;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
+
+.name-title {
+    margin-bottom: 8px;
+    padding-top: 32px;
+}
+
+.position {
+    padding-bottom: 32px;
+
+}
+
+
+.portfolio-title {
+margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 .end {
     background-color: var(--color-main);
