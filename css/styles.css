@@ -269,7 +269,7 @@ margin-bottom: 72px;
 
 .portfolio-pictures {
     max-width: 360px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-bottom: 1px solid #E7E9FC;
     flex-basis: calc((100% - 48px) / 3);
 }
 
