@@ -142,7 +142,7 @@ img {
 }
 
 .section {
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 /* Main-paige-section */
@@ -151,7 +151,7 @@ img {
     background-color: var(--color-main);
     display: flex;
     flex-direction: column;
-    padding: 94px 0;
+    padding: 188px 0;
 }
 .first-title{
     text-align: center;
@@ -237,14 +237,17 @@ img {
 
 .name-title {
     margin-bottom: 8px;
-    padding-top: 32px;
+}
+
+.team-card {
+    margin-bottom: 32px;
 }
 
 .position {
-    padding-bottom: 32px;
-
+    margin-bottom: 32px;
 }
 
+/* Portfolio section */
 
 .portfolio-title {
 margin-bottom: 72px;
@@ -253,13 +256,35 @@ margin-bottom: 72px;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
+.variety {
+    margin-bottom: 32px;
+}
+
+.aplications-title {
+    margin-bottom: 8px;
+}
+
+.portfolio-pictures {
+    max-width: 360px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-images {
+    margin-bottom: 32px;
+}
 
 
 .end {
     background-color: var(--color-main);
+    padding: 100px 0;
 }
+
 .increase {
     color: var(--color-second);
+    margin-top: 17px;
+    max-width: 264px;
 }
