@@ -214,7 +214,7 @@ img {
 }
 
 .list-solutions {
-    width: calc((100% - 72) / 3);
+    width: calc((100% - 72px) / 3);
 }
 
 .advantages-title {
@@ -273,7 +273,7 @@ margin-bottom: 72px;
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    
+
 }
 
 .portfolio-list {
@@ -300,6 +300,7 @@ margin-bottom: 72px;
 }
 
 .link-logo-footer {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -307,10 +308,10 @@ margin-bottom: 72px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    margin-bottom: 16px;
 }
 
 .increase {
     color: var(--color-second);
-    margin-top: 17px;
     max-width: 264px;
 }
